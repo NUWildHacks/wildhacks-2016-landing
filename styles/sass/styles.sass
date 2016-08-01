@@ -37,7 +37,7 @@ $confetti-size-420: 80px
 	overflow: hidden
 
 $primary-font-stack: 'Avenir', sans-serif
-$secondary-font-stack: 'SpaceMono-Regular', monospace
+$secondary-font-stack: 'SpaceMono', monospace
 
 $green: #70c9c0
 $blue: #9fc9eb
@@ -217,7 +217,7 @@ body
 
 			&:hover
 				border: 2px solid $hover-green
-				color: $hover-green				
+				color: $hover-green
 
 		.clear
 			display: inline-block
@@ -241,6 +241,17 @@ body
 					border: 2px solid $hover-green
 					cursor: pointer
 
+	#sponsor-info p
+		color: gray
+		font-style: normal
+
+		a
+			color: gray
+			font-weight: 700
+			text-decoration: none
+
+			&:hover
+				color: $hover-green
 
 @media screen and (max-width: 800px)
 	body

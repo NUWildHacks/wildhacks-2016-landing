@@ -5,22 +5,22 @@
   font-style: normal; }
 @font-face {
   font-family: "SpaceMono";
-  src: url("../../fonts/SpaceMono-Regular.otf");
+  src: url("../../fonts/SpaceMono-Regular.ttf");
   font-weight: 300;
   font-style: normal; }
 @font-face {
   font-family: "SpaceMono";
-  src: url("../../fonts/SpaceMono-Italic.otf");
+  src: url("../../fonts/SpaceMono-Italic.ttf");
   font-weight: 300;
   font-style: italic; }
 @font-face {
   font-family: "SpaceMono";
-  src: url("../../fonts/SpaceMono-Bold.otf");
+  src: url("../../fonts/SpaceMono-Bold.ttf");
   font-weight: 700;
   font-style: normal; }
 @font-face {
   font-family: "SpaceMono";
-  src: url("../../fonts/SpaceMono-BoldItalic.otf");
+  src: url("../../fonts/SpaceMono-BoldItalic.ttf");
   font-weight: 700;
   font-style: italic; }
 
