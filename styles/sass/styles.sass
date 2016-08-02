@@ -62,16 +62,17 @@ $transition: all .1s linear
 
 body
 	height: 100vh
+	margin: 0
 	width: 100vw
-	overflow: hidden
 
 #background
 	background-color: $whitesmoke
 	height: 105vh
 	left: -5vw
+	overflow: hidden
 	position: absolute
 	top: -5vh
-	width: 130vw
+	width: 110vw
 	z-index: 1
 
 	#confetti-1,
@@ -357,11 +358,11 @@ body
 				height: 70px
 
 			#presents-wrapper
-				padding-top: 20vh
+				padding-top: 15vh
 
 			.build-your-own
 				font-size: 2rem
-				top: 13vh
+				top: 8vh
 				@for $i from 1 through $num-letters
 					#char#{$i}
 						+rotate-text($i, $angle-span-420, $angle-offset-420)
@@ -369,14 +370,20 @@ body
 			#hackathon-wrapper #hackathon
 				font-size: 4rem
 
+			#time-place p
+				font-size: 1.3rem
+
 			#mc_embed_signup form
 				#mce-EMAIL
-					margin-bottom: 20px
+					margin-bottom: 15px
 					width: 90vw
 
 				#mc-embedded-subscribe
-					margin-bottom: 20px
-					margin-top: 10px
+					margin-bottom: 15px
+					// margin-top: 10px
+
+			#sponsor-info p
+				margin: 0
 
 
 @media screen and (max-width: 360px)
@@ -390,7 +397,7 @@ body
 
 			.build-your-own
 				font-size: 1.5rem
-				top: 6.5vh
+				top: 5vh
 				@for $i from 1 through $num-letters
 					#char#{$i}
 						+rotate-text($i, $angle-span-360, $angle-offset-360)
